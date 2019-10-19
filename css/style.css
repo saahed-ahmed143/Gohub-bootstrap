@@ -89,7 +89,7 @@
 .second-section .left-block{
     position: absolute;
     left: 0;
-    top: -18%;
+    top: -15%;
 }
 .second-section .left-block img{}
 .second-section .first-row{
@@ -442,3 +442,209 @@ footer .social{}
 	text-decoration: none;
 	color: #fff;
 }
+
+
+
+
+
+
+
+
+/*Media Queary*/
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*Header Section*/
+
+.header .navbar-nav{
+	float: right;
+	text-align: right;
+}
+.header h1{
+    font-size: 35px;
+    padding-right: 20%;
+}
+
+
+/*Second Section*/
+.second-section .left-block{
+	display: none;
+}
+.second-section h1{
+    font-size: 35px;
+    padding-right: 20%;
+}
+.second-section p{
+    padding-right: 21%;
+    margin-bottom: 35px;
+}
+
+/*Proof Section*/
+
+.proof h1{
+    font-size: 35px;
+}
+.proof h6{
+    padding: 0;
+    margin-bottom: 70px;
+}
+.proof p{
+    margin-bottom: 35px;
+}
+
+
+/*Safety Section*/
+
+.safety h1{
+    font-size: 35px;
+    text-align: center;
+}
+.safety h6{
+    padding-right: 0;
+    text-align: center;
+}
+.safety h5{
+	text-align: center;
+}
+.safety p{
+	text-align: center;
+}
+.safety img {
+	display: none;
+}
+
+/*Move Section*/
+.move{
+    padding: 0;
+}
+.move img{
+	display: none;
+}
+.move h1{
+    font-size: 35px;
+    text-align: center;
+}
+.move h6{
+	text-align: center;
+	padding: 0 10%;
+}
+.move h5{
+    text-align: center;
+}
+.move p{
+    text-align: center;
+}
+
+
+/*Finance Section*/
+.finance{
+    padding: 50px 0 100px;
+    position: relative;
+}
+.finance h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.finance .pera{
+	text-align: center;
+}
+.finance h5 {
+    margin-top: 50px;
+}
+.finance .right-img img{
+	display: none;
+}
+
+
+/*Ready Section*/
+
+.ready h1{
+    font-size: 35px;
+    text-align: center;
+    margin: 15px 0;
+}
+.ready .three-dot {
+	text-align: center;
+}
+.ready p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*Footer Section*/
+footer{
+    padding: 50px 0;
+}
+
+.copyright{
+	margin-top: 50px;
+}
+.copyright p{
+    text-align: center;
+}
+
+.copyright ul li{
+	margin-left: 20px;
+}
+
+
+
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+
+/*Header Section*/
+
+.header .sign-in{
+    display: inline-block;
+}
+.header .content{
+    top: 55%;
+    transform: translateY(-55%);
+}
+
+/*Second Section*/	
+.second-section .left-block{
+    display: none;
+}
+
+
+
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+
+/*Header Section*/
+.header .sign-in{
+    display: inline-block;
+}
+.header .content{
+    top: 55%;
+    transform: translateY(-55%);
+    padding-top: 14%;
+}
+/*Second Section*/	
+.second-section .left-block{
+    display: none;
+}
+
+
+}
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+
+.safety .started-btn {
+    padding: 9px 12px;
+}
+.move .started-btn {
+    padding: 9px 12px;
+}
+
+}
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
